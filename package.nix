@@ -4,16 +4,14 @@
   ...
 }:
 pkgs.rustPlatform.buildRustPackage rec {
-  pname = "jucenit";
-  version = "0.4.2";
+  pname = "safecat";
+  version = "0.1.0";
   src = ./.;
 
   cargoLock = {
     lockFile = ./Cargo.lock;
     outputHashes = {
       # "acme2-0.5.2" = lib.fakeSha256;
-      "cast-0.5.8" = "sha256-Dva7FTBYaJQiVz+fBLrqFZq0VnNAEhyfIwy5JP2DVPo=";
-      "acme2-0.5.2" = "sha256-tais3v7bbJDcIJY+WjTxzulKDoDlsXG9VT7MVU/VpLI=";
     };
   };
 

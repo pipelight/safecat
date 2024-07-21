@@ -1,6 +1,5 @@
 {
-  description = "Jucenit - A simple web server";
-
+  description = "Safecat - A CLI tool for crypto functions";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     rust-overlay.url = "github:oxalica/rust-overlay";
